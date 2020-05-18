@@ -2,7 +2,7 @@ function helpAyse() {
   let numberArray=["sifir","bir","iki","üc","dort","bes","altı","yedi","sekiz","dokuz","on"];
   let value=prompt("Ayse 10 dan Kucuk Bir Sayi Girer misin.");
   let value1=value.toLowerCase();
-      for(let i=0;i<11;i++) {
+      for(let i=0;i<numberArray.length+1;i++) {
          if(numberArray[i]==value1) { 
          let result=numberArray.indexOf(value1);
         document.getElementById("result").innerHTML=10-result;
