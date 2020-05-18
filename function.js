@@ -5,7 +5,6 @@ function helpAyse() {
       for(let i=0;i<11;i++) {
          if(numberArray[i]==value1) { 
          let result=numberArray.indexOf(value1);
-         console.log(result)
         document.getElementById("result").innerHTML=10-result;
          }
       }
