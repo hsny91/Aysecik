@@ -1,7 +1,7 @@
 function helpAyse() { 
   let numberArray=["sifir","bir","iki","üc","dort","bes","altı","yedi","sekiz","dokuz","on"];
-  let deger=prompt("Ayse 10 dan Kucuk Bir Sayi Girer misin.");
-  let deger1=deger.toLowerCase();
+  let value=prompt("Ayse 10 dan Kucuk Bir Sayi Girer misin.");
+  let deger1=value.toLowerCase();
       for(let i=0;i<11;i++) {
          if(numberArray[i]==deger1) { 
          let result=numberArray.indexOf(deger1);
